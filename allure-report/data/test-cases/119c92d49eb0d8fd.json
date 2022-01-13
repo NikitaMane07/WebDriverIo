@@ -1,0 +1,139 @@
+{
+  "uid" : "119c92d49eb0d8fd",
+  "name" : "And I send data \"LastName\" to element \"#customer_lastname\"",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.And I send data \"LastName\" to element \"#customer_lastname\"",
+  "historyId" : "5c1375ffa28601420fe8f186575cb670",
+  "time" : {
+    "start" : 1641797263405,
+    "stop" : 1641797263495,
+    "duration" : 90
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641797263405,
+        "stop" : 1641797263416,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f26eb950ee92512",
+        "name" : "Request",
+        "source" : "2f26eb950ee92512.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "cdf66d00c7aaa0b9",
+        "name" : "Response",
+        "source" : "cdf66d00c7aaa0b9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/4b7c22ea-eac0-4f5c-a16c-e57e7898ea7e/clear",
+      "time" : {
+        "start" : 1641797263417,
+        "stop" : 1641797263443,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/4b7c22ea-eac0-4f5c-a16c-e57e7898ea7e/value",
+      "time" : {
+        "start" : 1641797263444,
+        "stop" : 1641797263495,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b343c2156a66e04",
+        "name" : "Request",
+        "source" : "4b343c2156a66e04.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I send data \"LastName\" to element \"#customer_lastname\""
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9ee303c8f610da0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641796766754,
+        "stop" : 1641796766854,
+        "duration" : 100
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "119c92d49eb0d8fd.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

@@ -1,0 +1,118 @@
+{
+  "uid" : "32baad09879b137e",
+  "name" : "And I click on the element \"//select[@id='id_state']/option[text()='Arizona']\"",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.And I click on the element \"//select[@id='id_state']/option[text()='Arizona']\"",
+  "historyId" : "bf875eb37a9bc66ee2a338ae29ae4b33",
+  "time" : {
+    "start" : 1641797264574,
+    "stop" : 1641797264915,
+    "duration" : 341
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641797264574,
+        "stop" : 1641797264621,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d512f8f347efbe1",
+        "name" : "Request",
+        "source" : "6d512f8f347efbe1.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "6d75f771b73f6c9f",
+        "name" : "Response",
+        "source" : "6d75f771b73f6c9f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f30f592d-13fd-421f-9b89-4b7f4db04ed9/click",
+      "time" : {
+        "start" : 1641797264624,
+        "stop" : 1641797264914,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on the element \"//select[@id='id_state']/option[text()='Arizona']\""
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef55378e7f06ca23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641796767543,
+        "stop" : 1641796767892,
+        "duration" : 349
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32baad09879b137e.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

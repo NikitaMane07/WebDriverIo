@@ -1,0 +1,191 @@
+[ {
+  "uid" : "a85511b3920bb757",
+  "name" : "When I pause for \"30000\"",
+  "time" : {
+    "start" : 1641797276886,
+    "stop" : 1641797306889,
+    "duration" : 30003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45e05de4d825b16d",
+  "name" : "Given I am on the login page",
+  "time" : {
+    "start" : 1641797194771,
+    "stop" : 1641797213505,
+    "duration" : 18734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38a0f2bd21fe7cb0",
+  "name" : "And I send data \"Sr no.-12,abc\" to element \"#address1\"",
+  "time" : {
+    "start" : 1641797263778,
+    "stop" : 1641797263866,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "119c92d49eb0d8fd",
+  "name" : "And I send data \"LastName\" to element \"#customer_lastname\"",
+  "time" : {
+    "start" : 1641797263405,
+    "stop" : 1641797263495,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "add08dcff5600710",
+  "name" : "And I click on the element \"#uniform-id_state\"",
+  "time" : {
+    "start" : 1641797263953,
+    "stop" : 1641797264574,
+    "duration" : 621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f52804e0aed79a1b",
+  "name" : "And I send data \"FirstName\" to element \"#customer_firstname\"",
+  "time" : {
+    "start" : 1641797256240,
+    "stop" : 1641797263405,
+    "duration" : 7165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91da3c44048c8412",
+  "name" : "And I send data \"Mumbai\" to element \"#city\"",
+  "time" : {
+    "start" : 1641797263866,
+    "stop" : 1641797263953,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1def24860f565286",
+  "name" : "And I click on the element \"#SubmitCreate\"",
+  "time" : {
+    "start" : 1641797256172,
+    "stop" : 1641797256240,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e7b1dc8b1c517dd",
+  "name" : "And I send data \"FirstName\" to element \"#firstname\"",
+  "time" : {
+    "start" : 1641797263595,
+    "stop" : 1641797263687,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "492a0694ffa04bc1",
+  "name" : "And I expect that element \".header_user_info span\" contains text \"FirstName LastName\"",
+  "time" : {
+    "start" : 1641797306889,
+    "stop" : 1641797306894,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fafc67fb18822a7b",
+  "name" : "And I add mail id \"5\" to element \"#email_create\"",
+  "time" : {
+    "start" : 1641797255999,
+    "stop" : 1641797256172,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd28e52bb00f1775",
+  "name" : "And I add number \"10\" to element \"#passwd\"",
+  "time" : {
+    "start" : 1641797263495,
+    "stop" : 1641797263595,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96767230250a2f43",
+  "name" : "",
+  "time" : {
+    "start" : 1641797306894,
+    "stop" : 1641797306896,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32baad09879b137e",
+  "name" : "And I click on the element \"//select[@id='id_state']/option[text()='Arizona']\"",
+  "time" : {
+    "start" : 1641797264574,
+    "stop" : 1641797264915,
+    "duration" : 341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd1acca58803a500",
+  "name" : "And I click on the element \".header_user_info a\"",
+  "time" : {
+    "start" : 1641797243509,
+    "stop" : 1641797255999,
+    "duration" : 12490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3307fb75cd2e00aa",
+  "name" : "And I add number \"5\" to element \"#postcode\"",
+  "time" : {
+    "start" : 1641797264915,
+    "stop" : 1641797265269,
+    "duration" : 354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "549c46a116df0610",
+  "name" : "And I add number \"9\" to element \"#phone_mobile\"",
+  "time" : {
+    "start" : 1641797265269,
+    "stop" : 1641797265369,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abc1392c617ccb78",
+  "name" : "And I click on the element \"#submitAccount\"",
+  "time" : {
+    "start" : 1641797265369,
+    "stop" : 1641797276886,
+    "duration" : 11517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2900c1b214c3dd19",
+  "name" : "And I send data \"LastName\" to element \"#lastname\"",
+  "time" : {
+    "start" : 1641797263687,
+    "stop" : 1641797263778,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

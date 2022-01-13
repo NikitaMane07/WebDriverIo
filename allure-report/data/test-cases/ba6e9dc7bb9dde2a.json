@@ -1,0 +1,129 @@
+{
+  "uid" : "ba6e9dc7bb9dde2a",
+  "name" : "And I add mail id \"5\" to element \"#email_create\"",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.And I add mail id \"5\" to element \"#email_create\"",
+  "historyId" : "899f3558a437673115f08873d276337b",
+  "time" : {
+    "start" : 1641796758841,
+    "stop" : 1641796759043,
+    "duration" : 202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641796758843,
+        "stop" : 1641796758855,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e582fe48221c533a",
+        "name" : "Request",
+        "source" : "e582fe48221c533a.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "1bfe7769214d4a91",
+        "name" : "Response",
+        "source" : "1bfe7769214d4a91.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/092087ba-196a-40d3-83e2-6bb60b027bb8/clear",
+      "time" : {
+        "start" : 1641796758858,
+        "stop" : 1641796758884,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/092087ba-196a-40d3-83e2-6bb60b027bb8/value",
+      "time" : {
+        "start" : 1641796758886,
+        "stop" : 1641796759042,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "849a1a98b185cf5e",
+        "name" : "Request",
+        "source" : "849a1a98b185cf5e.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I add mail id \"5\" to element \"#email_create\""
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba6e9dc7bb9dde2a.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

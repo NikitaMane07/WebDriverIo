@@ -1,0 +1,252 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Given I am on the login page",
+    "uid" : "45e05de4d825b16d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797194771,
+      "stop" : 1641797213505,
+      "duration" : 18734
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I click on the element \".header_user_info a\"",
+    "uid" : "fd1acca58803a500",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797243509,
+      "stop" : 1641797255999,
+      "duration" : 12490
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I add mail id \"5\" to element \"#email_create\"",
+    "uid" : "fafc67fb18822a7b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797255999,
+      "stop" : 1641797256172,
+      "duration" : 173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I click on the element \"#SubmitCreate\"",
+    "uid" : "1def24860f565286",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797256172,
+      "stop" : 1641797256240,
+      "duration" : 68
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I send data \"FirstName\" to element \"#customer_firstname\"",
+    "uid" : "f52804e0aed79a1b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797256240,
+      "stop" : 1641797263405,
+      "duration" : 7165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I send data \"LastName\" to element \"#customer_lastname\"",
+    "uid" : "119c92d49eb0d8fd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797263405,
+      "stop" : 1641797263495,
+      "duration" : 90
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I add number \"10\" to element \"#passwd\"",
+    "uid" : "dd28e52bb00f1775",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797263495,
+      "stop" : 1641797263595,
+      "duration" : 100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I send data \"FirstName\" to element \"#firstname\"",
+    "uid" : "1e7b1dc8b1c517dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797263595,
+      "stop" : 1641797263687,
+      "duration" : 92
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I send data \"LastName\" to element \"#lastname\"",
+    "uid" : "2900c1b214c3dd19",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797263687,
+      "stop" : 1641797263778,
+      "duration" : 91
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I send data \"Sr no.-12,abc\" to element \"#address1\"",
+    "uid" : "38a0f2bd21fe7cb0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797263778,
+      "stop" : 1641797263866,
+      "duration" : 88
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I send data \"Mumbai\" to element \"#city\"",
+    "uid" : "91da3c44048c8412",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797263866,
+      "stop" : 1641797263953,
+      "duration" : 87
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I click on the element \"#uniform-id_state\"",
+    "uid" : "add08dcff5600710",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797263953,
+      "stop" : 1641797264574,
+      "duration" : 621
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I click on the element \"//select[@id='id_state']/option[text()='Arizona']\"",
+    "uid" : "32baad09879b137e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797264574,
+      "stop" : 1641797264915,
+      "duration" : 341
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I add number \"5\" to element \"#postcode\"",
+    "uid" : "3307fb75cd2e00aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797264915,
+      "stop" : 1641797265269,
+      "duration" : 354
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I add number \"9\" to element \"#phone_mobile\"",
+    "uid" : "549c46a116df0610",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797265269,
+      "stop" : 1641797265369,
+      "duration" : 100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I click on the element \"#submitAccount\"",
+    "uid" : "abc1392c617ccb78",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797265369,
+      "stop" : 1641797276886,
+      "duration" : 11517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "When I pause for \"30000\"",
+    "uid" : "a85511b3920bb757",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797276886,
+      "stop" : 1641797306889,
+      "duration" : 30003
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "And I expect that element \".header_user_info span\" contains text \"FirstName LastName\"",
+    "uid" : "492a0694ffa04bc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1641797306889,
+      "stop" : 1641797306894,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "",
+    "uid" : "96767230250a2f43",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641797306894,
+      "stop" : 1641797306896,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  } ]
+}

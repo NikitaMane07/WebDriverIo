@@ -1,0 +1,108 @@
+{
+  "uid" : "d14a021f0ffbc836",
+  "name" : "And I click on the element \"#SubmitCreate\"",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.And I click on the element \"#SubmitCreate\"",
+  "historyId" : "7fe512aa36091486bb6767819b1b6a1e",
+  "time" : {
+    "start" : 1641796759043,
+    "stop" : 1641796759103,
+    "duration" : 60
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641796759043,
+        "stop" : 1641796759055,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39dd99fdfd3267d5",
+        "name" : "Request",
+        "source" : "39dd99fdfd3267d5.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "2fa60770c4c98af8",
+        "name" : "Response",
+        "source" : "2fa60770c4c98af8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0737dc77-5f1b-4858-967b-29a6c10fd070/click",
+      "time" : {
+        "start" : 1641796759057,
+        "stop" : 1641796759103,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on the element \"#SubmitCreate\""
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d14a021f0ffbc836.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

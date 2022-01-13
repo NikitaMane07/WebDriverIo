@@ -1,0 +1,73 @@
+{
+  "uid" : "492a0694ffa04bc1",
+  "name" : "And I expect that element \".header_user_info span\" contains text \"FirstName LastName\"",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.And I expect that element \".header_user_info span\" contains text \"FirstName LastName\"",
+  "historyId" : "ef0ad8ed92067359ec2a78a6c00d5a23",
+  "time" : {
+    "start" : 1641797306889,
+    "stop" : 1641797306894,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "function has 3 arguments, should have 4 (if synchronous or returning a promise) or 5 (if accepting a callback)",
+  "statusTrace" : "function has 3 arguments, should have 4 (if synchronous or returning a promise) or 5 (if accepting a callback)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I expect that element \".header_user_info span\" contains text \"FirstName LastName\""
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d47a8499c46064d",
+      "status" : "broken",
+      "statusDetails" : "function has 3 arguments, should have 4 (if synchronous or returning a promise) or 5 (if accepting a callback)",
+      "time" : {
+        "start" : 1641796821906,
+        "stop" : 1641796821909,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "492a0694ffa04bc1.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

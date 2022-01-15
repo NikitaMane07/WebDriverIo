@@ -31,6 +31,34 @@ When(/^I send data "([^"]*)" to element "([^"]*)"$/, async (data, element) => {
   await LoginPage.sendData(data, element);
 });
 
+/**
+ * To store value or text of an element in global map
+ * @param {String} type type to use text or value
+ * @param {String} selector element locator
+ * @param {String} mapKey key to store in map as
+ * @returns {undefined}
+ */
+When(
+  /^I store (text|value) of element "([^"]*)?" as "([^"]*)?" in map$/,
+  async (type, element, mapKey) => {
+    await LoginPage.getValueOfElements(type, element, mapKey);
+  }
+);
+
+/**
+ * To set value to an inputfiled from global map
+ * @param {String} mapKey map key to get value
+ * @param {String} selector element locator
+ * @returns {undefined}
+ */
+When(
+  /^I enter value saved in map as "([^"]*)?" to the inputfield "([^"]*)?"$/,
+  async (mapKey, selector) => {
+    const value = global.map.get(mapKey);
+    await LoginPage.sendData(value, selector);
+  }
+);
+
 When(
   /^I add (mail id|number) "([^"]*)" to element "([^"]*)"$/,
   async (type, lengthValue, element) => {
@@ -60,10 +88,8 @@ When(
 
 Then(
   /^I expect that element "([^"]*)?" to have text "([^"]*)?"$/,
-  async (selector,value) => {
-    await LoginPage.checkEqualsOrContains(
-      selector,value
-    );
+  async (selector, value) => {
+    await LoginPage.checkEqualsOrContains(selector, value);
   }
 );
 

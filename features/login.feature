@@ -1,17 +1,18 @@
-Feature: Your Logo a new experience Website
-As a developer i should be able to test the login functionality
+Feature: Your Logo a new experience Website check Login and Product purchase fetaure
+  As a developer I should be able to test the login functionality
 
-Background:
+  Background:
     Given I am on the login page
-  
+
   Scenario: As a user, I can log into the secure area
-    # Given I am on the login page
-    And   I click on the element ".header_user_info a"
-    And   I add mail id "5" to element "#email_create"
+    Given I click on the element ".header_user_info a"
+    And   I send data "NamefName.07@gmail.com" to element "#email_create"
     And   I click on the element "#SubmitCreate"
     And   I send data "FirstName" to element "#customer_firstname"
     And   I send data "LastName" to element "#customer_lastname"
-    And   I add number "10" to element "#passwd"
+    And   I store value of element "#email" as "emailId" in map
+    And   I send data "LastNameFirst07" to element "#passwd"
+    And   I store value of element "#passwd" as "password" in map
     And   I send data "FirstName" to element "#firstname"
     And   I send data "LastName" to element "#lastname"
     And   I send data "Sr no.-12,abc" to element "#address1"
@@ -21,25 +22,23 @@ Background:
     And   I add number "5" to element "#postcode"
     And   I add number "9" to element "#phone_mobile"
     And   I click on the element "#submitAccount"
-    And  I pause for "30000"
     Then  I expect that element ".header_user_info span" to have text "FirstName LastName"
-    # And I expect that element ".header_user_info span" contains text "FirstName LastName"
+    And   I click on the element "//a[@title='Log me out']"
 
-
-    # And I send data "FirstName" to element "input[formcontrolname='firstName']"
-    # When I login with "kittupotnis@gmail.com" and "Samhith@20"
-    # And I wait for "button[routerlink='/auth/employer/onboard-contractors']" to be enabled
-    # And I click on the element "button[routerlink='/auth/employer/onboard-contractors']"
-    # And I wait for "a[href='/auth/employer/onboard-contractors/multiple']" to be enabled
-    # And I click on the element "a[href='/auth/employer/onboard-contractors/multiple']"
-    # And I click on the element "//h3[text()='Add Individual']/../..//div[@class='align-self-center']"
-    # # When I pause for "30000"
-    # And I send data "FirstName" to element "input[formcontrolname='firstName']"
-    # And I send data "LastName" to element "input[formcontrolname='lastName']"
-    # And I add mail id "5" to element "input[placeholder='Email ID']"
-    # And I add number "10" to element "input[placeholder='Phone Number']"
-    # And I add number "9" to element "input[placeholder='SSN']"
-    # # When I pause for "30000"
-    # And I click on the element "//span[text()='Add Contractor']"
-    # # When I pause for "30000"
-    # Then I expect "label[nz-checkbox='']" is displayed
+  Scenario: As a user, I buy product and proceed to payment
+    Given I click on the element ".header_user_info a"
+    And   I send data "NamefName.07@gmail.com" to element "//input[@id='email']"
+    And   I send data "LastNameFirst07" to element "//input[@id='passwd']"
+    And   I click on the element "//button[@id='SubmitLogin']"
+    And   I send data "Faded Short Sleeve T-shirts" to element "//input[@id='search_query_top']"
+    When  I click on the element "//button[@name='submit_search']"
+    And   I click on the element "//div[@class='product-image-container']"
+    And   I click on the element "//span[text()='Add to cart']"
+    And   I pause for "20000"
+    And   I click on the element "//div//a[@title='Proceed to checkout']"
+    And   I click on the element "//span[text()='Proceed to checkout']"
+    And   I click on the element "//span[text()='Proceed to checkout']"
+    And   I click on the element "//div[@id='uniform-cgv']"
+    And   I click on the element "//button[@name='processCarrier']"
+    Then  I expect that element "//p[@class='product-name']" to have text "Faded Short Sleeve T-shirts"
+    And   I click on the element "//a[@title='Log me out']"

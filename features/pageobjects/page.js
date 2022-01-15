@@ -30,7 +30,7 @@ module.exports = class Page {
     }
 
     async storeElementValue(type, selector, mapKey) {
-        const value = (type === 'text') ? $(selector).getText() : $(selector).getValue();
+        const value = (type === 'value') ? $(selector).getValue() : $(selector).getValue();
         global.map.set(mapKey, value);
     }
 
@@ -39,4 +39,19 @@ module.exports = class Page {
         await expect(myInput).toHaveText(value)
     }
     
+    async getValueOfElements(type, selector, mapKey) {
+        const value = (type === 'value') ? $(selector).getValue() : $(selector).getValue();
+        global.map.set(mapKey, value);
+    }
+
+    /**
+     * To set value to an inputfiled from global map
+     * @param {String} mapKey map key to get value
+     * @param {String} selector element locator
+     * @returns {undefined}
+     */
+    setInputfieldValueFromMap(mapKey, selector) {
+        const value = global.map.get(mapKey);
+        sendData(value, selector);
+    }
 }

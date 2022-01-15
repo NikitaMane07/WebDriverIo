@@ -223,6 +223,7 @@ exports.config = {
             'pageLoad': 30000
         });
         browser.maximizeWindow();
+        global.map = new Map()
     },
     /**
      * Runs before a WebdriverIO command gets executed.

@@ -6,7 +6,7 @@ Feature: Your Logo a new experience Website check Login and Product purchase fet
 
   Scenario: As a user, I can log into the secure area
     Given I click on the element ".header_user_info a"
-    And   I send data "NamefName.07@gmail.com" to element "#email_create"
+    And   I add mail id "3" to element "#email_create"
     And   I click on the element "#SubmitCreate"
     And   I send data "FirstName" to element "#customer_firstname"
     And   I send data "LastName" to element "#customer_lastname"
@@ -27,8 +27,8 @@ Feature: Your Logo a new experience Website check Login and Product purchase fet
 
   Scenario: As a user, I buy product and proceed to payment
     Given I click on the element ".header_user_info a"
-    And   I send data "NamefName.07@gmail.com" to element "//input[@id='email']"
-    And   I send data "LastNameFirst07" to element "//input[@id='passwd']"
+    And   I enter value saved in map as "emailId" to the inputfield "//input[@id='email']"
+    And   I enter value saved in map as "password" to the inputfield "//input[@id='passwd']"
     And   I click on the element "//button[@id='SubmitLogin']"
     And   I send data "Faded Short Sleeve T-shirts" to element "//input[@id='search_query_top']"
     When  I click on the element "//button[@name='submit_search']"

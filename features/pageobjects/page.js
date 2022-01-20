@@ -40,7 +40,8 @@ module.exports = class Page {
     }
     
     async getValueOfElements(type, selector, mapKey) {
-        const value = (type === 'value') ? $(selector).getValue() : $(selector).getValue();
+        const value = (type === 'value') ? await $(selector).getValue() : await $(selector).getText();
+        console.log("Value is "+ value)
         global.map.set(mapKey, value);
     }
 
